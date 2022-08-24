@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Companion Website for "CCF.OWL Data" (UPDATE)
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        hr {
+            border: none;
+            border-top: thin solid;
+            background-color: rgb(66, 66, 66);
+        }
+        
+        ul.no-bullets {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        h1 {
+            margin-top: 30px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        model-viewer-div {
+            height: 400px;
+        }
+    </style>
+    <script>
+        showIframe = function(id, url) {
+            var iframe = document.getElementById(id);
+            iframe.src = url;
+            iframe.height = 600;
+            var p = document.getElementById(id + "-message");
+            if (p) {
+                p.classList.remove("hidden")
+            }
+        }
+    </script>
+    <!-- Import the <model-viewer> component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <p></p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Lorem ipsum</h1>
+                <p></p>
+                <p>Lorem ipsum
+                </p>
+
+                <ul class="no-bullets">
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+
+
+
+    </div>
+</body>
+
+</html>
